@@ -210,25 +210,25 @@
     <div class="bg"><br></div>
     <div class="overlay"><br></div><!-- CTA bottom bar (default view) -->
     <div class="cta-wrap" id="ctaWrap">
-        <div class="cta-label">Mostra ****** schermata in cassa</div><button class="cta-btn" id="claimBtn" onclick="claimPromo()">&nbsp;<span id="btnText">🍹******** lo sconto</span>
+        <div class="cta-label">Mostra questa schermata in cassa</div><button class="cta-btn" id="claimBtn" onclick="claimPromo()">&nbsp;<span id="btnText">🍹Conferma lo sconto</span>
             <div class="spinner" id="spinner"><br></div>
         </button>
-        <div class="cta-label">Operatore: ***** per ********** la riscossione</div>
+        <div class="cta-label">Operatore: tocca per confermare la riscossione</div>
     </div><!-- Success -->
     <div class="state-overlay success" id="successView">
         <div class="check-circle">✓</div>
         <div class="state-title-ok">Sconto riscosso!</div>
-        <div class="state-msg"><strong>Hai ********* ** questa promozione</strong><br>2 Drink a 10&euro; &middot; Chiringuito Wave</div>
+        <div class="state-msg"><strong>Hai usufruito di questa promozione</strong><br>2 Drink a 10&euro; &middot; Chiringuito Wave</div>
     </div><!-- Already used -->
     <div class="state-overlay warning" id="usedView">
         <div class="state-icon">⚠️</div>
         <div class="state-title-err">Promo gi&agrave; usata</div>
-        <div class="state-msg">****** link &egrave; stato gi&agrave; riscosso.<br>Ogni link &egrave; valido *** sola volta.</div>
+        <div class="state-msg">Questo link &egrave; stato gi&agrave; riscosso.<br>Ogni link &egrave; valido una sola volta.</div>
     </div><!-- Invalid -->
     <div class="state-overlay warning" id="invalidView">
         <div class="state-icon">❌</div>
-        <div class="state-title-err">**** non valido</div>
-        <div class="state-msg">Questo link non &egrave; ****** o &egrave; scaduto.<br>Contatta il PR *** riceverne *** nuovo.</div>
+        <div class="state-title-err">link non valido</div>
+        <div class="state-msg">Questo link non &egrave; valido o &egrave; scaduto.<br>Contatta il PR per riceverne uno nuovo.</div>
     </div>
     <script>
         const SUPABASE_URL = 'https://ujbbijlxdmchualxkznh.supabase.co';

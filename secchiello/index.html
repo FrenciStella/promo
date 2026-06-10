@@ -48,7 +48,7 @@
     /* CTA pinned to bottom */
     .cta-wrap {
       position: fixed;
-      bottom: 0;
+      bottom: 90px;
       left: 0;
       right: 0;
       z-index: 10;
@@ -160,11 +160,12 @@
 
   <!-- CTA bottom bar (default view) -->
   <div class="cta-wrap" id="ctaWrap">
-    <div class="cta-label">Clicca qui per ritirare il tuo sconto</div>
+    <div class="cta-label">Mostra questa schermata in cassa</div>
     <button class="cta-btn" id="claimBtn" onclick="claimPromo()">
-      <span id="btnText">🪣 Ritira lo sconto</span>
+      <span id="btnText">🪣 Conferma lo sconto</span>
       <div class="spinner" id="spinner"></div>
     </button>
+    <div class="cta-label">Operatore: tocca per confermare la riscossione</div>
   </div>
 
   <!-- Success -->
@@ -172,8 +173,8 @@
     <div class="check-circle">✓</div>
     <div class="state-title-ok">Sconto riscosso!</div>
     <div class="state-msg">
-      <strong>Mostra questa schermata alla cassa</strong><br/>
-      Secchiello 20€ · Chiringuito Wave
+      <strong>Hai usufruito di questa promozione</strong><br/>
+      Secchiello 20&euro; &middot; Chiringuito Wave
     </div>
   </div>
 
